@@ -172,3 +172,4 @@ C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\ne
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\ProjetoPTI2.exe
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\ProjetoPTI2.pdb
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Logins\Index.cshtml.g.cs
+C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Chamados\Index.cshtml.g.cs
