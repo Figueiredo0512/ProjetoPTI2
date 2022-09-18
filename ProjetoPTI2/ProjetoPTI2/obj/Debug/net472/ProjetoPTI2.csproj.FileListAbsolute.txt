@@ -156,7 +156,6 @@ C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\ne
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\ProjetoPTI2.TagHelpers.output.cache
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\ProjetoPTI2.RazorCoreGenerate.cache
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Shared\Error.cshtml.g.cs
@@ -174,3 +173,5 @@ C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\ne
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Logins\Index.cshtml.g.cs
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Chamados\Index.cshtml.g.cs
 C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Relatorios\Index.cshtml.g.cs
+C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Relatorios\RelatorioFuncionarios.cshtml.g.cs
+C:\Users\mathe\Documents\Fatec\Projeto PTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Relatorios\RelatorioClientes.cshtml.g.cs
