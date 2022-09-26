@@ -73,12 +73,21 @@
 .profile-img-card {
     width: 100%;
     height: 100%;
-    margin: 0 auto 10px;
+    margin: 0% 0%;
     display: block;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
+
+.img-circle {
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+
 /*
      * Form styles
      */
