@@ -4,49 +4,50 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Cadastro</h2>
-
-<h4>Cadastre aqui seus clientes e funcionários</h4>
-<hr />
-
 <style>
     body, html {
         background-image: linear-gradient(rgb(104, 145, 162), rgb(220, 220, 220));
     }
 </style>
 
+<h2>Cadastro</h2>
+
+<h4>Cadastre aqui seus clientes, funcionários ou abra um novo chamado.</h4>
+<hr />
+
+
 <div class="container">
     <div class="card-group">
         <div class="col-lg-4 active">
             <div class="card">
-                <img class="card-img-top" src="/images/dashboard.png" alt="Imagem de capa do card">
+                <img class="card-img-top" src="/images/dashboard1.png" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <span class="card-title">Chamados</span>
+                    <h5 class="card-title">Chamados</h5>
                     <p class="card-text">
-                        Informações completas de chamados como atendimento, log, data de abertura, data de fechamento, e muito mais.
+                        Abertura de um novo chamado.
                     </p>
-                    <a asp-area="" asp-controller="Chamados" asp-action="Index">Chamados</a>
+                    <a asp-area="" asp-controller="Chamados" asp-action="Index">Realizar um novo cadastro de Chamado</a>
                 </div>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top" src="/images/employee.png" alt="Imagem de capa do card">
+                <img class="card-img-top" src="/images/employee1.png" alt="Imagem de capa do card">
                 <div class="card-body">
                     <h5 class="card-title">Funcionarios</h5>
-                    <p class="card-text">Obtenha relatórios completos de funcionários da empresa.</p>
-                    <a asp-area="" asp-controller="RelatoriosFuncionarios" asp-action="Index">Funcionarios</a>
+                    <p class="card-text">Cadastro de um novo Funcionário.</p>
+                    <a asp-area="" asp-controller="CadastroFuncionarios" asp-action="Index">Realizar um novo cadastro de Funcionario</a>
                 </div>
             </div>
         </div>
 
         <div class="col-lg-4">
             <div class="card">
-                <img class="card-img-top" src="./images/client.png" alt="Imagem de capa do card">
+                <img class="card-img-top" src="./images/client1.png" alt="Imagem de capa do card">
                 <div class="card-body">
                     <h5 class="card-title">Clientes</h5>
-                    <p class="card-text">Obtenha relatórios completos dos clientes que atendemos.</p>
-                    <a asp-area="" asp-controller="RelatoriosClientes" asp-action="Index">Clientes</a>
+                    <p class="card-text">Cadastro de um novo Cliente.</p>
+                    <a asp-area="" asp-controller="CadastroClientes" asp-action="Index">Realizar um novo cadastro de Cliente</a>
                 </div>
             </div>
         </div>
