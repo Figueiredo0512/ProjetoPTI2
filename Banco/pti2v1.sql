@@ -97,4 +97,5 @@ ADD CONSTRAINT Fk_login_funcionario
 FOREIGN KEY (Fk_id_login)
 REFERENCES tbLogin(Id_login);
 
+
 -- select * from tbCargo
