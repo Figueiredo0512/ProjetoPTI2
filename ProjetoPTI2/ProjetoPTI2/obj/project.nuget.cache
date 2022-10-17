@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACW2O/96zoQ80Y8WmREzZjlmyMgNk/pCH1bhRhMdwGMTnvo2QbACmhT/QvvB1KNW+q/dsIBUDOQgkGDPCTIGkA==",
+  "dgSpecHash": "IaRD+CrXUFqj7+Z/2E22UcYLkKdyHHeBek/bRxB2/Pr+Qyd0uAY52aNrGQF10ZZpQkGP9rWTV8ffha90UFhPoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathe\\Documents\\Fatec\\Projeto PTI2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2.csproj",
+  "projectFilePath": "C:\\Users\\mathe\\Documents\\fatec\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
