@@ -54,7 +54,7 @@ namespace ProjetoPTI2.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome")] CadastroCliente cadastroCliente)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Cnpj, Email,Telefone,Dt_cadastro")] CadastroCliente cadastroCliente)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace ProjetoPTI2.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome")] CadastroCliente cadastroCliente)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Cnpj, Email,Telefone,Dt_cadastro")] CadastroCliente cadastroCliente)
         {
             if (id != cadastroCliente.Id)
             {
