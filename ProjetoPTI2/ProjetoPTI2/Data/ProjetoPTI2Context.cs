@@ -15,5 +15,7 @@ namespace ProjetoPTI2.Data
         }
 
         public DbSet<ProjetoPTI2.Models.CadastroCliente> CadastroCliente { get; set; }
+
+        public DbSet<ProjetoPTI2.Models.CadastroFuncionario> CadastroFuncionario { get; set; }
     }
 }

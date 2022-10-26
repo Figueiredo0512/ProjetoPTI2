@@ -1,0 +1,59 @@
+﻿@model ProjetoPTI2.Models.CadastroFuncionario
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Deletar um funcionário</h2>
+
+<h3>Você tem certeza que deseja <span>deletar</span> o funcionário selecionado? </h3>
+
+<div>
+    <h4>Informações de <span>@Html.DisplayFor(model => model.Nome)</span> </h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cpf)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cpf)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Matricula)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Matricula)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dt_Contratacao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Dt_Contratacao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoLogin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoLogin)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Deletar" class="btn btn-default" /> |
+        <a asp-action="Index">Voltar para a lista</a>
+    </form>
+</div>
