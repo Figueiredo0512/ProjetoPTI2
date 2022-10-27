@@ -555,3 +555,7 @@ C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Ra
 C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\CadastroFuncionarios\Delete.cshtml.g.cs
 C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\CadastroFuncionarios\Details.cshtml.g.cs
 C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\CadastroFuncionarios\Edit.cshtml.g.cs
+C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Chamados\Create.cshtml.g.cs
+C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Chamados\Delete.cshtml.g.cs
+C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Chamados\Details.cshtml.g.cs
+C:\Users\mathe\Documents\ProjetoPTI2\ProjetoPTI2\ProjetoPTI2\obj\Debug\net472\Razor\Views\Chamados\Edit.cshtml.g.cs
