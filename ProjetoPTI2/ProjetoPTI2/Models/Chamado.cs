@@ -13,6 +13,8 @@ namespace ProjetoPTI2.Models
         public int Resolvedor { get; set; }
         public int Solicitante { get; set; }
 
+
+
         /*
          create table tbTicket (
         Id_ticket int NOT NULL auto_increment primary key,
