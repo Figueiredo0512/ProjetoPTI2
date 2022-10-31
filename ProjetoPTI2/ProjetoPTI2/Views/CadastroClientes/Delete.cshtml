@@ -1,12 +1,16 @@
 ﻿@model ProjetoPTI2.Models.CadastroCliente
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Deletar Cliente";
 }
 
-<h2>Deletar um cliente</h2>
 
-<h3>Você tem certeza que deseja <span>deletar</span> esse cliente?</h3>
+<h2>Deletar um Cliente</h2>
+
+<h3>
+    Você tem certeza que deseja <span>deletar</span> o Cliente: @Html.DisplayFor(modelItem => Model.Nome)?
+</h3>
+
 <div>
     <hr />
 

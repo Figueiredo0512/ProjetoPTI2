@@ -1,58 +1,61 @@
 ﻿@model ProjetoPTI2.Models.CadastroFuncionario
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Funcionario";
 }
 
-<h2>Edit</h2>
-
-<h4>CadastroFuncionario</h4>
+<h2>Editar Funcionário @Html.DisplayFor(modelItem => Model.Nome)</h2>
+<br />
+<div>
+    <a asp-action="Index">Voltar a lista de funcionários</a>
+</div>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="container">
         <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Matricula" class="control-label"></label>
-                <input asp-for="Matricula" class="form-control" />
-                <span asp-validation-for="Matricula" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cpf" class="control-label"></label>
-                <input asp-for="Cpf" class="form-control" />
-                <span asp-validation-for="Cpf" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
+            <div class="form-group col-md-6">
+                <label asp-for="Nome" class="control-label">Nome completo</label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Dt_Contratacao" class="control-label"></label>
-                <input asp-for="Dt_Contratacao" class="form-control" />
-                <span asp-validation-for="Dt_Contratacao" class="text-danger"></span>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label asp-for="Matricula" class="control-label"></label>
+                    <input asp-for="Matricula" class="form-control" />
+                    <span asp-validation-for="Matricula" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-3">
+                    <label asp-for="Cpf" class="control-label">CPF</label>
+                    <input asp-for="Cpf" class="form-control" />
+                    <span asp-validation-for="Cpf" class="text-danger"></span>
+                </div>
+
+
             </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label asp-for="Dt_Contratacao" class="control-label">Data de contratação</label>
+                    <input asp-for="Dt_Contratacao" class="form-control" />
+                    <span asp-validation-for="Dt_Contratacao" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Email" class="control-label">E-mail</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="TipoLogin" class="control-label">Tipo de Login</label>
+                    <input asp-for="TipoLogin" class="form-control" max="1" min="0" />
+                    <span asp-validation-for="TipoLogin" class="text-danger"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="TipoLogin" class="control-label"></label>
-                <input asp-for="TipoLogin" class="form-control" />
-                <span asp-validation-for="TipoLogin" class="text-danger"></span>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
-            <div class="form-group">
-                <input type="submit" value="Salvar" class="btn btn-default" />
-            </div>
+        </div>
         </form>
-    </div>
 </div>
 
-<div>
-    <a asp-action="Index">Voltar para a lista</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

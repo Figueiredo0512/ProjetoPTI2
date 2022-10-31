@@ -1,15 +1,15 @@
 ﻿@model ProjetoPTI2.Models.CadastroFuncionario
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Deletar Funcionario";
 }
 
 <h2>Deletar um funcionário</h2>
 
-<h3>Você tem certeza que deseja <span>deletar</span> o funcionário selecionado? </h3>
+<h3>
+    Você tem certeza que deseja <span>deletar</span> o Funcionário: @Html.DisplayFor(modelItem => Model.Nome)? </h3>
 
 <div>
-    <h4>Informações de <span>@Html.DisplayFor(model => model.Nome)</span> </h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
