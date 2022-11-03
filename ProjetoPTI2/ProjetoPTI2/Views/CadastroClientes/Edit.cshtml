@@ -20,7 +20,7 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group col-md-6">
-                <label asp-for="Cnpj" class="control-label"></label>
+                <label asp-for="Cnpj" class="control-label">CNPJ</label>
                 <input asp-for="Cnpj" class="form-control" />
                 <span asp-validation-for="Cnpj" class="text-danger"></span>
             </div>
@@ -28,26 +28,38 @@
 
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group col-md-6">
-                <label asp-for="Telefone" class="control-label"></label>
+                <label asp-for="Telefone" class="control-label">Telefone</label>
                 <input asp-for="Telefone" class="form-control" />
                 <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Dt_cadastro" class="control-label">Data de Cadastro</label>
+                <input asp-for="Dt_cadastro" class="form-control" />
+                <span asp-validation-for="Dt_cadastro" class="text-danger"></span>
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label asp-for="Dt_cadastro" class="control-label"></label>
-                <input asp-for="Dt_cadastro" class="form-control" />
-                <span asp-validation-for="Dt_cadastro" class="text-danger"></span>
+                <label asp-for="Email" class="control-label">E-mail</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group col-md-6">
-                <label asp-for="TipoLogin" class="control-label"></label>
+                <label asp-for="TipoLogin" class="control-label">Tipo de login</label>
                 <input asp-for="TipoLogin" class="form-control" value="2" disabled />
                 <span asp-validation-for="TipoLogin" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label asp-for="Senha" class="control-label">Senha</label>
+                <input asp-for="Senha" type="password" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="Senha" class="control-label">Senha</label>
+                <input asp-for="Senha" type="password" class="form-control" disabled />
+                <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
         </div>
         <div class="form-row">

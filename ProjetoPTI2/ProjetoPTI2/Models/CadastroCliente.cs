@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
+using System.Web;
 
 namespace ProjetoPTI2.Models
 {
@@ -15,6 +16,7 @@ namespace ProjetoPTI2.Models
         public string Telefone { get; set; }
         public DateTime Dt_cadastro { get; set; }
         public int  TipoLogin { get; set; }
+        public string Senha { get; set; }
         //Fk_id_endereco int not null,
         //Fk_id_ticket int,
         //Fk_id_login int not null

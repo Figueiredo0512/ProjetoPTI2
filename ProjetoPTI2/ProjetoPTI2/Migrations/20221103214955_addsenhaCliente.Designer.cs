@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetoPTI2.Data;
 
 namespace ProjetoPTI2.Migrations
 {
     [DbContext(typeof(ProjetoPTI2Context))]
-    partial class ProjetoPTI2ContextModelSnapshot : ModelSnapshot
+    [Migration("20221103214955_addsenhaCliente")]
+    partial class addsenhaCliente
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
