@@ -62,7 +62,8 @@ namespace ProjetoPTI2
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                //    template: "{controller=Home}/{action=Index}/{id?}");
+                 template: "{controller=Logins}/{action=Index}/{id?}");
             });
         }
     }
