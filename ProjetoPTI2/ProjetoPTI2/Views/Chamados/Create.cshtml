@@ -28,23 +28,21 @@
             <div class="form-group col-md-3">
                 <label asp-for="Dt_fechamento" class="control-label">Data de fechamento</label>
                 <input asp-for="Dt_fechamento" class="form-control" disabled />
-                     <span asp-validation-for="Dt_fechamento" class="text-danger"></span>
+                <span asp-validation-for="Dt_fechamento" class="text-danger"></span>
             </div>
-           
         </div>
         <div class="form-row">
             <div class="form-group col-md-12">
                 <label asp-for="Descricao" class="control-label">Descrição</label>
                 <input asp-for="Descricao" class="form-control" />
+                <input asp-for="Solicitante" type="hidden" class="form-control" value="1" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
         </div>
-            
         <div class="form-row">
             <div class="form-group col-md-6">
                 <button type="submit" class="btn btn-primary">Criar</button>
             </div>
-
         </div>
     </form>
 </div>
