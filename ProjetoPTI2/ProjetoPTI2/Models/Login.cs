@@ -4,5 +4,7 @@
     {
         public int User { get; set; }
         public int Email { get; set; }
+        private string _password { get; set; }
+
     }
 }

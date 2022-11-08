@@ -11035,19 +11035,21 @@
   },
   "packageFolders": {
     "C:\\Users\\mathe\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mathe\\Desktop\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\Desktop\\pti2v2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2.csproj",
       "projectName": "ProjetoPTI2",
-      "projectPath": "C:\\Users\\mathe\\Desktop\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2.csproj",
+      "projectPath": "C:\\Users\\mathe\\Desktop\\pti2v2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mathe\\Desktop\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\Desktop\\pti2v2\\ProjetoPTI2\\ProjetoPTI2\\ProjetoPTI2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,14 +1,21 @@
 ﻿using System;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProjetoPTI2.Models
 {
     public class Chamado
     {
         public int Id { get; set; }
+        [DisplayName("Título")]
         public string Titulo { get; set; }
+        [DisplayName("Descrição")]
         public string Descricao { get; set; }
-        public DateTime Dt_abertura { get; set; }
+        [DisplayName("Data de abertura")]
+        public DateTime Dt_abertura { get; set; } = DateTime.Now;
+        [DisplayName("Data de Fechamento")]
         public DateTime Dt_fechamento { get; set; }
+        [DisplayName("Resolução")]
         public string Resolucao { get; set; }
         public int Resolvedor { get; set; }
         public int Solicitante { get; set; }

@@ -9,20 +9,42 @@
 }
 
 </style>
-<div class="container">
-    <div class="card card-container">
-        <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-        <img id="profile-img" class="profile-img-card" src="./images/logo1.png" />
-        <p id="profile-name" class="profile-name-card"></p>
-        <form class="form-signin">
-            <span id="reauth-email" class="reauth-email"></span>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email ou Usuário" required autofocus>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+
+<body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a asp-area="" asp-controller="Logins" asp-action="Index" class="navbar-brand">Projeto PTI2</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="container">
+        <div class="card card-container">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="./images/logo1.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email ou Usuário" required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
             
-            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
-        </form><!-- /form -->
-        <a href="#" class="forgot-password">
-            Esqueceu a senha?
-        </a>
-    </div><!-- /card-container -->
-</div><!-- /container -->
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"><a asp-area="" asp-controller="Relatorios" asp-action="Index">Login</a></button>
+            </form><!-- /form -->
+            <a href="#" class="forgot-password">
+                Esqueceu a senha?
+            </a>
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+ </body>

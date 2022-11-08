@@ -39,7 +39,6 @@ namespace ProjetoPTI2.Controllers
             {
                 return NotFound();
             }
-
             return View(cadastroCliente);
         }
 
