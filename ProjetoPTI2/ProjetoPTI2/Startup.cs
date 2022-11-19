@@ -37,8 +37,12 @@ namespace ProjetoPTI2
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<ProjetoPTI2Context>(options =>
-                    options.UseMySql(Configuration.GetConnectionString("ProjetoPTI2Context"), builder =>
+                    options.UseSqlServer(Configuration.GetConnectionString("ProjetoPTI2Context"), builder =>
                     builder.MigrationsAssembly("ProjetoPTI2")));
+
+                    //Trocar pelo item acima!
+                    //options.UseMySql(Configuration.GetConnectionString("ProjetoPTI2Context"), builder =>
+                    //builder.MigrationsAssembly("ProjetoPTI2")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

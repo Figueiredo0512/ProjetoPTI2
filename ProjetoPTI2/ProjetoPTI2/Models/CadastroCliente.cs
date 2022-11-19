@@ -10,6 +10,8 @@ namespace ProjetoPTI2.Models
     [Table("tbCliente")]
     public class CadastroCliente
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Nome { get; set; }
         [DisplayName("CNPJ")]
