@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Drawing.Drawing2D;
 
@@ -8,6 +9,8 @@ namespace ProjetoPTI2.Models
     [Table("tbFuncionario")]
     public class CadastroFuncionario
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [DisplayName("Matrícula")]
         public int Matricula { get; set; }
